@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CreditCard
+comment1.params=cardId\ clientName\ issuerBank\ bankAccount\ balanceAmount\ cvcNumber\ interestRate\ expirationDate
+comment1.target=CreditCard(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ double,\ java.lang.String)
+comment1.text=\r\n\ In\ the\ constructor\ below,\ some\ of\ the\ parameters\ passed\ to\ it\ will\ again\ be\ passed\ as\ a\ parameter\ to\ the\ constructor\ \r\n\ of\ the\ super\ class\ and\ to\ the\ setter\ method\ of\ the\ super\ class.\ The\ values\ of\ the\ instance\ variables\ cvc\ number,\ interest\ rate\ and\ expiration\r\n\ date\ is\ set\ to\ the\ value\ passed\ as\ a\ parameter\ in\ the\ constructor\ of\ this\ class\ through\ 'this'\ keyword.\ \r\n
+comment10.params=
+comment10.target=void\ display()
+comment10.text=\ Display\ method\ which\ calls\ the\ display\ method\ of\ super\ class\ and\ displays\ the\ instance\ variables\ of\ this\ class\ itself\r\n\ with\ suitable\ annotations\ if\ the\ client\ has\ been\ granted\ credit.\r\n
+comment2.params=
+comment2.target=int\ getCvcNumber()
+comment3.params=
+comment3.target=double\ getCreditLimit()
+comment4.params=
+comment4.target=double\ getInterestRate()
+comment5.params=
+comment5.target=java.lang.String\ getExpirationDate()
+comment6.params=
+comment6.target=int\ getGracePeriod()
+comment7.params=
+comment7.target=boolean\ getIsGranted()
+comment8.params=creditLimit\ gracePeriod
+comment8.target=void\ setCreditLimit(double,\ int)
+comment9.params=
+comment9.target=void\ cancelCreditCard()
+numComments=11
